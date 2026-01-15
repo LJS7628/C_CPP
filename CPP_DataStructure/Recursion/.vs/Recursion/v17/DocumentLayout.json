@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dlwot\\source\\repos\\Recursion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F836726-29B8-4F5E-A66B-B807F62F4E8F}|Recursion\\Recursion.vcxproj|C:\\Users\\dlwot\\source\\repos\\Recursion\\Recursion\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5F836726-29B8-4F5E-A66B-B807F62F4E8F}|Recursion\\Recursion.vcxproj|solutionrelative:Recursion\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\dlwot\\source\\repos\\Recursion\\Recursion\\main.c",
+              "RelativeDocumentMoniker": "Recursion\\main.c",
+              "ToolTip": "C:\\Users\\dlwot\\source\\repos\\Recursion\\Recursion\\main.c",
+              "RelativeToolTip": "Recursion\\main.c",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwGkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-15T13:01:34.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
