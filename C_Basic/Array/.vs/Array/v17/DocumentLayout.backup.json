@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dlwot\\source\\repos\\Array\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5666A7-2937-45BD-A87C-E2C883091136}|Array\\Array.vcxproj|C:\\Users\\dlwot\\source\\repos\\Array\\Array\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F5666A7-2937-45BD-A87C-E2C883091136}|Array\\Array.vcxproj|solutionrelative:Array\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\dlwot\\source\\repos\\Array\\Array\\main.c",
+              "RelativeDocumentMoniker": "Array\\main.c",
+              "ToolTip": "C:\\Users\\dlwot\\source\\repos\\Array\\Array\\main.c",
+              "RelativeToolTip": "Array\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-15T12:22:28.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

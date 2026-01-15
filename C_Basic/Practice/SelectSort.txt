@@ -1,0 +1,35 @@
+#include "stdafx.h"
+
+int main(void)
+{
+	int i, j, min, index, temp,k;
+	int array[11] = {};
+	srand((unsigned)time(NULL));
+	for(int e=0; e<11; e++)
+	{
+	 int array[e]=rand()%100;
+	}
+	for (i = 0; i < 11; i++)
+	{
+		min = 9999;
+		for (j = i; j < 11; j++)
+		{
+			if (min > array[j])
+			{
+				min = array[j];
+				index = j;
+			}
+		}
+		temp = array[i];
+		array[i] = array[index];
+		array[index] = temp;
+		for (k = 0; k < 11; k++)
+		{
+			printf("%2d ", array[k]);			
+		}
+		printf("\n");
+		printf("\n");
+	}
+	
+	return 0;
+}

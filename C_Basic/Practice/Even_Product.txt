@@ -1,0 +1,35 @@
+#include "stdafx.h"
+
+int main()
+{
+	int a, b, c = 0;
+	int i;
+	int gop = 1;
+	int swap, term = 0;
+	scanf_s("%d%d%d", &a, &b, &c);
+	printf("a는 %d, b는 %d, c는 %d 입니다.\n", a, b, c);
+	if (a > b)
+	{
+		term = a;
+		a = b;
+		b = term;
+	}
+	if (b > c)
+	{
+		swap = b;
+		b = c;
+		c = swap;
+	}
+
+	printf("최소값은 %d 이고 최대값은 %d입니다.\n", a, c);
+	for (i = a + 1; i < c; i++)
+	{
+		if (i % 2 == 0)
+		{
+			gop *= i;
+		}
+	}
+
+	printf("최소값과 최대값 사이의 짝수를 곱한 값은 %5d 입니다.\n", gop);
+	return 0;
+}

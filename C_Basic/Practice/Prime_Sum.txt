@@ -1,0 +1,38 @@
+#include "stdafx.h"
+
+#define _CRT_SECURE_NO_WARNINGS
+
+int isPrimeNumber(int n)
+{
+	for (int x = 2; x <= n / 2; x++)
+	{
+		if (n%x == 0) return 0;
+
+	}
+	return 1;
+}
+int main()
+{
+	int num[1001], a;
+	for (a = 2; a <= 1000; a++)
+	{
+		num[a] = 1;
+	}
+
+	for (a = 2; a <= 1000; a++)
+	{
+		if (num[a] == 0) continue;
+		if (isPrimeNumber(a))
+		{
+			for (int p = a + a; p <= 1000; p += a)
+				num[p] = 0;
+		}
+	}
+
+	for (a = 2; a <= 1000; a++)
+	{
+		if (num[a])
+			printf("%5d", a);
+	}
+	return 0;
+}

@@ -1,0 +1,32 @@
+#include "stdafx.h"
+#include <stdlib.h>
+#include <time.h>
+int main()
+{
+	int i, j, k, l, temp;
+	int array[11] = { };
+	srand((unsigned)time(NULL));
+	for (int e = 0; e < 11; e++)
+	{
+		array[e] = rand() % 100;
+	}
+
+	for (i = 0; i < 10; i++)
+	{
+		j = i;
+		while (array[j] > array[j + 1])
+		{
+			temp = array[j];
+			array[j] = array[j + 1];
+			array[j + 1] = temp;
+			j--;
+		}
+		for (k = 0; k < 11; k++)
+		{
+			printf("%2d ", array[k]);
+		}
+		printf("\n");
+	}
+
+	return 0;
+}

@@ -1,0 +1,38 @@
+#include "stdafx.h"
+
+int factorial(int n);
+int permutation(int n, int r);
+int combination(int n, int r);
+
+int main(void)
+{
+	int fact_num;
+	fact_num = factorial(15);
+	printf("15ÆÑÅä¸®¾ó : %d\n\n", fact_num);
+
+	int per_num;
+	per_num = permutation(5, 3);
+	printf("5 P 3 : %d\n\n", per_num);
+
+	int com_num;
+	com_num = combination(5, 3);
+	printf("5 C 3 : %d\n\n", com_num);
+}
+
+int factorial(int n)
+{
+	if (n <= 1)
+		return(1);
+	else
+		return(n*factorial(n - 1));
+}
+
+int permutation(int n, int r)
+{
+	return(factorial(n) / factorial(n - r));
+}
+
+int combination(int n,int r)
+{
+	return(factorial(n) / (factorial(r)*factorial(n - r)));
+}

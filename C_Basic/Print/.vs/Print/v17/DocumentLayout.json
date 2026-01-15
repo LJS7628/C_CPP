@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dlwot\\source\\repos\\Print\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A8B296-4B12-43BB-A097-92CA6D7171C1}|Print\\Print.vcxproj|C:\\Users\\dlwot\\source\\repos\\Print\\Print\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C1A8B296-4B12-43BB-A097-92CA6D7171C1}|Print\\Print.vcxproj|solutionrelative:Print\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\dlwot\\source\\repos\\Print\\Print\\main.c",
+              "RelativeDocumentMoniker": "Print\\main.c",
+              "ToolTip": "C:\\Users\\dlwot\\source\\repos\\Print\\Print\\main.c",
+              "RelativeToolTip": "Print\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-15T11:51:25.04Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

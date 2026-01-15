@@ -1,0 +1,65 @@
+#include "stdafx.h"
+#include <stdlib.h>
+#include <time.h>
+
+#define C 4
+#define R 4
+
+int main(void)
+{
+	int a[C][R];
+	srand((unsigned)time(NULL));
+	int i, j,k;
+	
+	for (i = 0; i<C; i++)
+	{
+		for (j = 0; j<R; j++)
+		{
+			a[i][j] = rand() % 10;
+		}
+	}
+	printf("青纺 A\n");
+	for (i = 0; i < C; i++)
+	{
+		printf("\n");
+		for (j = 0; j < R; j++)
+		{
+			printf("%d ", a[i][j]);
+		}
+	}
+	printf("\n\n");
+	printf("青纺 B\n");
+	for (i = 0; i < C; i++)
+	{
+		printf("\n");
+		for (j = 0; j < R-1; j++)
+		{
+			printf("%d ", a[i][j]);
+		}
+	}
+	printf("\n\n");
+	printf("青纺 A x 青纺 B\n");
+	int S[4][3] = { 0 };
+	for (int X = 0; X <= 3; X++)
+	{
+		for (int Y = 0; Y <= 2; Y++)
+		{
+			S[X][Y] = 0;
+			for (int Z = 0; Z <= 3; Z++)
+			{
+				S[X][Y] = S[X][Y] + (a[X][Z] * a[Z][Y]);
+			}
+		}
+	}
+		
+	for (int X = 0; X <= 3; X++)
+	{
+		printf("\n");
+		for (int Y = 0; Y <= 2; Y++)
+		{
+			printf("%3d ", S[X][Y]);
+		}
+	}
+	
+	return 0;
+}

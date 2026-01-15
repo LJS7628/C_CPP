@@ -1,0 +1,36 @@
+#include "stdafx.h"
+#include <time.h>
+#include <stdlib.h>
+
+int sumeven(int a[]);
+
+int main(void)
+{
+	int b[5];
+	srand((unsigned)time(NULL));
+	for (int x = 0; x < 5; x++)
+	{
+		b[x] = rand() % 100;
+	}
+	for (int y = 0; y < 5; y++)
+	{
+		printf("%d번째 배열의 수 : %d\n\n", y + 1, b[y]);
+	}
+	int sum;
+	sum = sumeven(b);
+	printf("짝수들의 총합은 : %d\n\n", sum);
+	return 0;
+}
+int sumeven(int a[])
+{
+	int result=0;
+
+	for (int i = 0; i < 5; i++)
+	{
+		if (a[i] % 2 == 0)
+		{
+			result += a[i];
+		}
+	}
+	return result;
+}

@@ -1,0 +1,29 @@
+#include "stdafx.h"
+
+int checkprime(int n);
+
+int main(void)
+{
+	int prime;
+	prime = checkprime(11);
+	if (prime == 1)
+	{
+		printf("소수입니다.\n\n");
+	}
+	else 
+	{
+		printf("소수가 아닙니다.\n\n");
+	}
+
+	return 0;
+}
+
+int checkprime(int n)
+{
+	for (int i = 2; i <= 9; i++)
+	{
+		if (n%i == 0)
+			return 0;
+	}
+	return 1;
+}

@@ -1,0 +1,33 @@
+#include "stdafx.h"
+
+
+int Findmin(int a[10]);
+
+int main(void)
+{
+	int a[10] = { 13,15,30,22,11,54,24,48,16,8};
+	int sum;
+	sum=Findmin(a);
+	printf("%d", sum);
+	return 0;
+}
+
+int Findmin(int a[10])
+{
+	int result;
+	for (int i = 0; i < 9; i++)
+	{
+		for (int j = 0; j < 8; j++)
+		{
+			if (a[j] < a[j + 1])
+			{
+				result = a[j];
+				a[j + 1] = a[j];
+			}
+			else
+				result = a[j + 1];
+				
+		}
+	}
+	return result;
+}

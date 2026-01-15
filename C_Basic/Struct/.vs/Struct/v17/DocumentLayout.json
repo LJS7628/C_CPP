@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dlwot\\source\\repos\\Struct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E5A67F-8F1E-4C32-BBC4-A968282E1B74}|Struct\\Struct.vcxproj|C:\\Users\\dlwot\\source\\repos\\Struct\\Struct\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A4E5A67F-8F1E-4C32-BBC4-A968282E1B74}|Struct\\Struct.vcxproj|solutionrelative:Struct\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\dlwot\\source\\repos\\Struct\\Struct\\main.c",
+              "RelativeDocumentMoniker": "Struct\\main.c",
+              "ToolTip": "C:\\Users\\dlwot\\source\\repos\\Struct\\Struct\\main.c",
+              "RelativeToolTip": "Struct\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-15T12:35:45.607Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

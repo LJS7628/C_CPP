@@ -1,0 +1,186 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <time.h>
+
+//퍼즐 배열의 최대값, 기본값
+#define MAX 10
+#define BASE 4
+
+#define RIGHT '1'
+#define LEFT '3'
+#define DOWN '4'
+#define UP '2'
+#define END '0'
+
+//퍼즐게임
+int puzzle[MAX][MAX];
+
+//퍼즐 배열의 숫자 0의 현재 위치
+int current_x;
+int current_y;
+int length = BASE;
+
+//게임의 난이도
+int difficult = 10;
+
+void initial(void);
+void select(int key);
+int decide(void);
+
+int main(void)
+{
+	length = 3;
+
+	initial();
+
+	do
+	{
+		select(getchar());
+	} while (decide());
+
+	printf("\n 축하합니다!");
+}
+
+void initial(void)
+{
+	int i, j;
+	int x1, y1, x2, y2;
+	int temp;
+
+	//퍼즐배열에 숫자 초기값 넣기
+	current_x = 0;
+	current_y = 0;
+	for (i = 0;i<length;i++)
+		for (j = 0;j<length;j++)
+			puzzle[i][j] = j + i * length;
+
+	//퍼즐배열의 초기값 출력
+	for (i = 0;i<length;i++)
+	{
+		for (j = 0;j<length;j++)
+		{
+			printf("%3d", puzzle[i][j]);
+		}
+		printf("\n");
+	}
+	printf("\n\n");
+
+	//퍼즐 배열 섞기
+	srand((unsigned)time(NULL));
+	for (i = 0;i<difficult;i++)
+	{
+		x1 = rand() % length;
+		y1 = rand() % length;
+		x2 = rand() % length;
+		y2 = rand() % length;
+
+		temp = puzzle[y1][x1];
+		puzzle[y1][x1] = puzzle[y2][x2];
+		puzzle[y2][x2] = temp;
+
+		if (puzzle[y1][x1] == 0) {
+			current_y = y1;
+			current_x = x1;
+		}
+		else if (puzzle[y2][x2] == 0) {
+				current_y = y2;
+				current_x = x2;
+			}
+	}
+
+	//섞인 퍼즐값 출력
+	printf("퍼즐 맞추기 시작\n\n");
+	for (i = 0;i<length;i++)
+	{
+		for (j = 0;j<length;j++)
+		{
+			printf("%3d", puzzle[i][j]);
+		}
+		printf("\n");
+	}
+	printf("\n4아래\n3왼쪽\n1오른\n2위로\n숫자를 입력하세요");
+}
+
+void select(int key)
+{
+	int i, j;
+
+	//상하좌우 키 입력
+	switch (key)
+	{
+	case RIGHT: //RIGHT
+		if (current_x<length - 1)
+		{
+			puzzle[current_y][current_x] = puzzle[current_y][current_x + 1];
+			current_x++;
+		}
+		else {
+			printf("벽에 막혔습니다\n");
+		}
+		break;
+
+	case LEFT: //LEFT
+		if (current_x>0)
+		{
+			puzzle[current_y][current_x] = puzzle[current_y][current_x - 1];
+			current_x--;
+		}
+		else {
+			printf("벽에 막혔습니다.다른 선택지를 골라주세요.\n");
+		}
+		break;
+
+	case DOWN: //DOWN
+		if (current_y<length - 1)
+		{
+			puzzle[current_y][current_x] = puzzle[current_y + 1][current_x];
+			current_y++;
+		}
+		else {
+			printf("벽에 막혔습니다.다른 선택지를 골라주세요.\n");
+		}
+		break;
+
+	case UP: //UP
+		if (current_y>0)
+		{
+			puzzle[current_y][current_x] = puzzle[current_y - 1][current_x];
+			current_y--;
+		}
+		else {
+			printf("벽에 막혔습니다.다른 선택지를 골라주세요.\n");
+		}
+		break;
+
+	case END:
+		printf("\n\n프로그램을 종료합니다 \n");
+		exit(0);
+	}
+
+	puzzle[current_y][current_x] = 0;
+
+	//퍼즐 배열 출력
+	for (i = 0;i<length;i++)
+	{
+		for (j = 0;j<length;j++)
+		{
+			printf("%3d", puzzle[i][j]);
+		}
+		printf("\n");
+	}
+
+	printf("\n");
+}
+
+int decide(void)
+{
+	int i, j;
+
+	//퍼즐 배열의 값들이 정렬되었는지 체크
+	for (i = 0;i<length;i++)
+		for (j = 0;j<length;j++)
+			if (puzzle[i][j] != j + i * length)
+				return 1;
+	return 0;
+}

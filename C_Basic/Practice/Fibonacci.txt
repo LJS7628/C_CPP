@@ -1,0 +1,31 @@
+#include "stdafx.h"
+
+
+int main()
+{
+	int i, j, k, L;
+	int fibo[30];
+	fibo[0] = 0;
+	fibo[1] = 1;
+	int a = 0;
+	scanf_s("%d", &a);
+	
+	for (i = 2; i < 30; i++)
+	{
+		fibo[i] = 0;
+	}
+
+	for (j = 0; j < 28; j++)
+	{	
+			fibo[j+2] = fibo[j] + fibo[j + 1];
+			if (fibo[j] <= a)
+			{
+				printf("%2d ", fibo[j]);
+			}
+			else
+				break;
+	}
+	
+	
+	return 0;
+}

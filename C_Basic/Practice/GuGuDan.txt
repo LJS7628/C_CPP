@@ -1,0 +1,21 @@
+#include "stdafx.h"
+
+
+int main()
+{
+	int a, b;
+	int x1, x2, x3, x4;
+	
+	for (a = 2; a < 9; a+=4)
+	{
+		printf("   %d단       %d단      %d단       %d단 \n", a,a+1,a+2,a+3);
+		for (b = 1; b < 10; b++)
+		{
+			x1 = a * b; x2 = (a + 1)*b; x3 = (a + 2)*b; x4 = (a + 3)*b;
+			printf("%2d*%2d=%2d  %2d*%2d=%2d  %2d*%2d=%2d  %2d*%2d=%2d ", a, b,x1,a+1,b,x2,a+2,b,x3,a+3,b,x4);
+			printf("\n");
+		}
+	}
+	
+	return 0;
+}
