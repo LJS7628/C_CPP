@@ -25,7 +25,7 @@ ___
 * 쿽 정렬(QuickSort)
 * 다익스트라 (Dijkstra)
 ___
-### LeetCode Top100 (코딩테스트)
+### LeetCode Top100 (코딩테스트) : 업데이트 중
 * 배열 및 문자열 
 * 투 포인터
 * 슬라이딩 윈도우
