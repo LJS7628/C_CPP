@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DAT_Hash", "DAT_Hash\DAT_Hash.vcxproj", "{49CEA7AC-6B8C-412B-A389-980794A852C9}"
 EndProject
@@ -12,8 +12,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch", "BinarySearch\BinarySearch.vcxproj", "{EFD8BEEF-B453-4855-94CF-EE560CA1F866}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MST_Kruskal", "MST_Kruskal\MST_Kruskal.vcxproj", "{C255A0D9-E882-43EC-B3D6-A04CD9678AF3}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bruteforce", "Bruteforce\Bruteforce.vcxproj", "{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackTracking", "BackTracking\BackTracking.vcxproj", "{26D9F46B-C973-48C4-AF94-95CE0D6959B8}"
 EndProject
@@ -73,14 +71,6 @@ Global
 		{C255A0D9-E882-43EC-B3D6-A04CD9678AF3}.Release|x64.Build.0 = Release|x64
 		{C255A0D9-E882-43EC-B3D6-A04CD9678AF3}.Release|x86.ActiveCfg = Release|Win32
 		{C255A0D9-E882-43EC-B3D6-A04CD9678AF3}.Release|x86.Build.0 = Release|Win32
-		{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}.Debug|x64.ActiveCfg = Debug|x64
-		{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}.Debug|x64.Build.0 = Debug|x64
-		{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}.Debug|x86.ActiveCfg = Debug|Win32
-		{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}.Debug|x86.Build.0 = Debug|Win32
-		{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}.Release|x64.ActiveCfg = Release|x64
-		{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}.Release|x64.Build.0 = Release|x64
-		{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}.Release|x86.ActiveCfg = Release|Win32
-		{B548FD53-8CCF-4FCB-A9B2-1B9AD3B1F6BB}.Release|x86.Build.0 = Release|Win32
 		{26D9F46B-C973-48C4-AF94-95CE0D6959B8}.Debug|x64.ActiveCfg = Debug|x64
 		{26D9F46B-C973-48C4-AF94-95CE0D6959B8}.Debug|x64.Build.0 = Debug|x64
 		{26D9F46B-C973-48C4-AF94-95CE0D6959B8}.Debug|x86.ActiveCfg = Debug|Win32
