@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C28746F-6F27-4E86-B6F3-A683AA9BFAC3}|Tree\\Tree.vcxproj|D:\\C_CPP\\C_CPP\\CPP_DataStruct\\Tree\\excute.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8C28746F-6F27-4E86-B6F3-A683AA9BFAC3}|Tree\\Tree.vcxproj|solutionrelative:Tree\\excute.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{053174EC-585F-4B17-AB2B-0C529EB07918}|RBTree\\RBTree.vcxproj|D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\execute.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{053174EC-585F-4B17-AB2B-0C529EB07918}|RBTree\\RBTree.vcxproj|solutionrelative:RBTree\\execute.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C28746F-6F27-4E86-B6F3-A683AA9BFAC3}|Tree\\Tree.vcxproj|D:\\C_CPP\\C_CPP\\CPP_DataStruct\\Tree\\Tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8C28746F-6F27-4E86-B6F3-A683AA9BFAC3}|Tree\\Tree.vcxproj|solutionrelative:Tree\\Tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{053174EC-585F-4B17-AB2B-0C529EB07918}|RBTree\\RBTree.vcxproj|D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{053174EC-585F-4B17-AB2B-0C529EB07918}|RBTree\\RBTree.vcxproj|solutionrelative:RBTree\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053174EC-585F-4B17-AB2B-0C529EB07918}|RBTree\\RBTree.vcxproj|D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\AVLTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{053174EC-585F-4B17-AB2B-0C529EB07918}|RBTree\\RBTree.vcxproj|solutionrelative:RBTree\\AVLTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tree.h",
-              "DocumentMoniker": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\Tree\\Tree.h",
-              "RelativeDocumentMoniker": "Tree\\Tree.h",
-              "ToolTip": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\Tree\\Tree.h",
-              "RelativeToolTip": "Tree\\Tree.h",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAAmAAAAAAAAAA==",
+              "Title": "RBTree.h",
+              "DocumentMoniker": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\RBTree.h",
+              "RelativeDocumentMoniker": "RBTree\\RBTree.h",
+              "ToolTip": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\RBTree.h",
+              "RelativeToolTip": "RBTree\\RBTree.h",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAAAAoBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-20T15:44:09.1Z",
+              "WhenOpened": "2026-02-21T09:17:17.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "excute.cpp",
-              "DocumentMoniker": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\Tree\\excute.cpp",
-              "RelativeDocumentMoniker": "Tree\\excute.cpp",
-              "ToolTip": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\Tree\\excute.cpp",
-              "RelativeToolTip": "Tree\\excute.cpp",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC8AAAAnAAAAAAAAAA==",
+              "Title": "execute.cpp",
+              "DocumentMoniker": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\execute.cpp",
+              "RelativeDocumentMoniker": "RBTree\\execute.cpp",
+              "ToolTip": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\execute.cpp*",
+              "RelativeToolTip": "RBTree\\execute.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-20T15:44:08.529Z",
+              "WhenOpened": "2026-02-21T09:14:46.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AVLTree.h",
+              "DocumentMoniker": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\AVLTree.h",
+              "RelativeDocumentMoniker": "RBTree\\AVLTree.h",
+              "ToolTip": "D:\\C_CPP\\C_CPP\\CPP_DataStruct\\RBTree\\AVLTree.h",
+              "RelativeToolTip": "RBTree\\AVLTree.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-21T09:11:07.841Z",
               "EditorCaption": ""
             }
           ]
